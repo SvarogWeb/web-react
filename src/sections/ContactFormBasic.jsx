@@ -4,13 +4,13 @@ export default function ContactFormBasic() {
     const [status, setStatus] = useState('idle');
     const [error, setError] = useState('');
 
-    const endpoint = 'https://postman-echo.com/post';
+    const endpoint = '/echo/post';
 
     async function onSubmit(e) {
         e.preventDefault();
         setStatus('loading');
         setError('');
-
+        console.log(e);
         const form = e.target;
         const fd = new FormData(form);
 
