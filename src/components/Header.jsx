@@ -21,7 +21,7 @@ export default function Header() {
     return (
         <header className="header">
             <div className="header__inner">
-                <h1 style={{margin: 0, color: 'var(--brand)'}}>Лабораторна робота № 12</h1>
+                <h1 style={{margin: 0, color: 'var(--brand)'}}>Лабораторна робота № 13</h1>
             </div>
             <nav className="nav" aria-label="Головна навігація">
                 <NavLink
